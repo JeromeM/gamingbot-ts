@@ -1,1 +1,1 @@
-# gamingbot-ts
+# Gaming Bot

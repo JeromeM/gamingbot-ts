@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
+    "moduleResolution": "Node", // Ajout explicite
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "ts-node": {
+    "transpileOnly": true, // Ignore les erreurs de type pour accélérer
+    "files": true // Inclut tous les fichiers
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,6 @@
+.env
+node_modules
+database.sqlite
+dist
+games-dictionary.txt
+package-lock.json
